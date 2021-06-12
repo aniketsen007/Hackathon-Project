@@ -1,0 +1,102 @@
+body  
+{  
+  margin: 0;  
+  padding: 0;  
+  background-color:#6abadeba;  
+  font-family: 'Arial';  
+}  
+.login
+{  
+  width: 382px;  
+    
+  margin: auto;  
+   
+  padding: 80px;  
+  background: #23463f;  
+  border-radius: 15px ;   
+  align-items: center;    
+  justify-content: center;    
+} 
+
+h1
+{  
+  text-align: center;  
+  color: #277582;  
+  padding-top: 20px;  
+  
+  
+}  
+label
+{  
+  color: #08ffd1;  
+  font-size: 17px;  
+}  
+#Uname
+{  
+  width: 300px;  
+  height: 30px;  
+  border: none;  
+  border-radius: 3px;  
+  padding-left: 8px;  
+}  
+#Pass
+{  
+  width: 300px;  
+  height: 30px;  
+  border: none;  
+  border-radius: 3px;  
+  padding-left: 8px;       
+}  
+#log
+{  
+  width: 300px;  
+  height: 30px;  
+  border: none;  
+  border-radius: 17px;  
+  padding-left: 7px;  
+  color:rgba(5, 114, 87, 0.9);  
+  cursor:pointer;
+}  
+#log:hover{
+  background-color:#08ffd1;
+}
+span
+{  
+  color: white;  
+  font-size: 17px;  
+}  
+.ab
+{  
+  color:#08ffd1;  
+  background-color: grey; } 
+
+
+a:hover{
+  cursor:pointer;
+}
+
+#BTN{
+    margin-left:120px;
+    padding: 1px 5px;
+  font-size: 12px;
+ align-items: center;
+  cursor: pointer;
+  outline: none;
+  color:aliceblue;
+  background-color: #04AA6D;
+  border: none;
+ 
+  box-shadow: 0 2px #999;
+}
+
+a{color:white;}
+#BTN:hover{
+  background-color: rgba(200, 12,2,0.8);
+  transform: translateY(4px);
+}
+
+#BTN:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
